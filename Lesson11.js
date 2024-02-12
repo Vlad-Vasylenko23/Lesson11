@@ -12,7 +12,7 @@ const rl = readline.createInterface({
   terminal: false 
 })
  
-let total = 0; 
+let total = 0 
  
 rl.on('line', (line) => { 
   console.log(line)
